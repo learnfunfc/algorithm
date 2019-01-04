@@ -17,6 +17,6 @@ def Qsort(num,m,n):
         Qsort(num,m,j-1) # 左半邊遞迴
         Qsort(num,j+1,n) # 右半邊遞迴
 
-num=[11,2,15,41,5,12,9]
+num=[11,2,151,41,5,12,9]
 Qsort(num,0,len(num)-1)
 print(num)
