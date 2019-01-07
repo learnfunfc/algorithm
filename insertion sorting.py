@@ -9,7 +9,9 @@ while i < len(num):
     while j-1 >= 0:
         if (num_sorted[j-1] > num_sorted[j]):
             num_sorted[j], num_sorted[j-1] = num_sorted[j-1], num_sorted[j]
-        j -= 1
+            j -= 1
+        else:
+            break
     i+=1
 
 print(num_sorted)
