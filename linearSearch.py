@@ -1,4 +1,4 @@
-#以下的index = 1 都當作第一筆資料
+#以下的index = 0 都當作第一筆資料
 # non-sentail linear search
 def search1(numList, record):
     numList.insert(0,None)
